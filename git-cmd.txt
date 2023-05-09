@@ -1,0 +1,145 @@
+    1  cd .ssh
+    2  ls
+    3  cat authorized_keys
+    4  pwd
+    5  lll
+    6  cd ..
+    7  ll
+    8  apt
+    9  apt update
+   10  sudo apt update
+   11  sudo apt-get update
+   12  sudo apt-get install docker.io
+   13  systemctl status
+   14  systemctl stop docker
+   15  systemctl status docker
+   16  systemctl stop docker
+   17  cd /home/shubham/Downloads
+   18  systemctl stop docker
+   19  polkit-agent-helper-1
+   20  su systemctl stop docker
+   21  su stop docker
+   22  sudo stop docker
+   23  pwd
+   24  sudo-systemctl stop docker
+   25  sudo docker kill $(docker ps -q)
+   26  systemctl status docker
+   27  sudo service docker stop
+   28  systemctl status docker
+   29  pwd
+   30  df -h
+   31  git  --version
+   32  mkdir devops-git
+   33  cd devops-git
+   34  ls
+   35  touch hello.txt
+   36  ls
+   37  ls -la
+   38  git init
+   39  ls -la
+   40  ls -a
+   41  git config --global user.name "shubham"
+   42  git config --global user.email "incrdibleshubham@gmail.com"
+   43  ll
+   44  git status
+   45  git add hello.txt
+   46  git status
+   47  git commit -m "added hello file"
+   48  git log
+   49  ls
+   50  rm hello.txt
+   51  ll
+   52  git status
+   53  git restore hello.txt
+   54  ll
+   55  git status
+   56  vim hello.txt
+   57  git status
+   58  git add hello.txt
+   59  git status
+   60  git commit -m "added new content"
+   61  git log
+   62  cd ..
+   63  mkdir git-practice
+   64  cd git-practice
+   65  touch gitprac1.txt
+   66  ll
+   67  vim gitprac1.txt
+   68  git init
+   69  git status
+   70  ls -la
+   71  git add gitprac1.txt
+   72  git status
+   73  git commit -m "practice file ver1"
+   74  rm gitprac1.txt
+   75  git status
+   76  git restore gitprac1.txt
+   77  git status
+   78  vim gitprac1.txt
+   79  git status
+   80  git add gitprac1.txt
+   81  git status
+   82  git commit -m "version 2 update"
+   83  git log
+   84  git branch
+   85  ls
+   86  git checkout -b dev_new_branch
+   87  exit
+   88  df -h
+   89  pwd
+   90  whoami
+   91  ls -la
+   92  cd devops-git
+   93  git status
+   94  cd ..
+   95  cd git-practice
+   96  git status
+   97  ls -la
+   98  df -h
+   99  ls  -la
+  100  cd devops-git
+  101  git status
+  102  cd ..
+  103  docker ps
+  104  docker pull mongo
+  105  docker pull nginx
+  106  sudo usermod -aG docker $USER
+  107  ip a
+  108  docker ps
+  109  docker pull nginx
+  110  docker ps
+  111  ls  -la
+  112  cd git-practice
+  113  git status
+  114  ls -la
+  115  touch git2.txt
+  116  vim git2.txt
+  117  git status
+  118  git add git2.txt
+  119  git status
+  120  git commit -m "added new file git2.txt"
+  121  git log
+  122  rm git2.txt
+  123  git status
+  124  git restore git2.txt
+  125  git status
+  126  ls -la
+  127  cd ..
+  128  ls -l
+  129  git clone https://github.com/shubham-incr/devops-prac.git
+  130  ls -la
+  131  cd devops-prac
+  132  ls -la
+  133  touch git3.txt
+  134  vim git3.txt
+  135  git status
+  136  git add git3.txt
+  137  git commit -m "added git3 file to repo"
+  138  git remote -v
+  139  git remote set-url origin https://<access_token>@github.com/shubham-incr/devops-prac.git
+  140  git remote -v
+  141  git push origin main
+  142  git pull origin main
+  143  ls
+  144  cat remote-file
+  145  history
